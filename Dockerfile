@@ -1,5 +1,5 @@
-FROM goodrain.me/rainbond-ant
-
+#FROM goodrain.me/rainbond-ant
+FROM guligo/jdk-maven-ant-tomcat
 WORKDIR /app
 
 COPY . ./
