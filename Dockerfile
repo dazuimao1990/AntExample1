@@ -2,7 +2,7 @@
 FROM guligo/jdk-maven-ant-tomcat
 WORKDIR /app
 
-ENV TEST youknow
+ENV TEST youknowit
 COPY . ./
 
 RUN ant -buildfile ./build.xml
